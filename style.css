@@ -1,0 +1,32 @@
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.landingPage {
+    height: 100%;
+    margin: 0;
+    background-image: url("img3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.lpTitle {
+    margin-left: 800px;
+    padding-top: 150px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 75px;
+    color: white;
+}
+.lpButton {
+    margin-left: 900px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    color: white;
+}
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 80%;
+  width: 60%;
+}
